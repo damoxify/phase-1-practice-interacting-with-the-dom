@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
-     const counter = document.getElementById('counter');
-     const minusButton = document.getElementById('minus');
-     const plusButton = document.getElementById('plus');
-     const heartButton = document.getElementById('heart');
-     const pauseButton = document.getElementById('pause');
-     const submitButton = document.getElementById('submit');
+     const counter = document.querySelector('#counter');
+     const minusButton = document.querySelector('#minus');
+     const plusButton = document.querySelector('#plus');
+     const heartButton = document.querySelector('#heart');
+     const pauseButton = document.querySelector('#pause');
+     const submitButton = document.querySelector('#submit');
      const likesList = document.querySelector('.likes');
-     const commentsList = document.getElementById('list');
-     const commentForm = document.getElementById('comment-form');
-     const commentInput = document.getElementById('comment-input');
+     const commentsList = document.querySelector('#list');
+     const commentForm = document.querySelector('#comment-form');
+     const commentInput = document.querySelector('#comment-input');
    
      let interval;
    
